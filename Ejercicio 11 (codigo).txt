@@ -1,0 +1,23 @@
+class program {
+
+void poner_deja(n) {
+
+   if ( iszero(n) ) {
+      turnleft();
+      pickbeeper();
+   }
+   else {
+      iterate (n) {
+        putbeeper();
+      }
+   }
+}
+    program () {
+        // Ejercicio 11: Define una nueva instrucción
+        //que haga que Karel ponga "n" zumbadores
+        //en donde se encuentra, pero si "n" es cero,
+        //recoja 1 zumbador.
+        poner_deja(0);
+        turnoff();
+    }
+}
