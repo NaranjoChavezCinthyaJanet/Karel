@@ -1,0 +1,21 @@
+class program 
+{
+ void avanza(n)
+ {
+ iterate(n)
+  {
+   move();
+  }
+ }
+  program ()
+  {
+    if(frontIsClear)
+    {
+      avanza(5);
+    }
+    else
+    {
+      turnoff();
+    }
+    }
+}
